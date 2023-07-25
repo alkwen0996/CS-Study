@@ -136,13 +136,13 @@ HTTP/1.0에서 발전된 형태로, **매번 TCP 연결을 하지않고**
 
 
 <p align="center">
-    <img src="./img/http1parallelconnection.gif" width="500">
+    <img src="./img/http1parallelconnection.gif" width="600">
     <br>
     <small>병렬 커넥션</small>
 </p>
 
 <p align="center">
-    <img src="./img/http2multiplexing.gif" width="500">
+    <img src="./img/http2multiplexing.gif" width="600">
     <br>
     <small>지속 커넥션기반의 멀티플레싱</small>
 </p>
@@ -165,7 +165,7 @@ HTTP/1.0에서 발전된 형태로, **매번 TCP 연결을 하지않고**
 보통 html 파일 속엔 css나 js 파일이 포함되는데, html을 읽으면서 안에 들어있는 필요한 파일을 서버에서 푸시해 클라이언트에게 먼저 줄 수 있다. 
 
 <p align="center">
-    <img src="./img/http2serverpush.gif" width="500">
+    <img src="./img/http2serverpush.gif" width="600">
 </p>
 
 <br>
@@ -175,7 +175,7 @@ TCP 위에서 동작하는 이전 버전들과 달리 **QUIC 계층** 위에서 
 또한 HTTP/2의 장점인 멀티플렉싱을 가지고 있으며, **초기 연결 설정 시 지연 시간 감소**라는 장점이 있다. 
 
 <p align="center">
-    <img src="./img/http3.png" width="350">
+    <img src="./img/http3.png" width="300">
     <br>
     <small>출처: 면접을 위한 CS 전공지식 노트</small>
 </p>
@@ -189,10 +189,29 @@ QUIC는 순방향 오류 수정 메커니즘(FEC:Forword Error Correction)이 �
 <br>
 
 # HTTPS
-HTTPS는 애플리케이션 계층과 전송 계층 사이에 신뢰 계층인 `SSL/TSL` 계층을 넣은 **신뢰할 수 있는 HTTP 요청**을 말한다. (통신의 암호화)
+`HTTPS`는 애플리케이션 계층과 전송 계층 사이에 신뢰 계층인 `SSL/TSL` 계층을 넣은 **신뢰할 수 있는 HTTP 요청**을 말한다. (통신을 암호화함) HTTP는 텍스트 교환으로 누군가 네트워크 신호를 가로채면 내용이 노출되는 보안적 이슈가 존재한다. 이를 해결해주는 프로토콜이 `HTTPS`이다. 
 
 <p align="center">
-    <img src="./img/httphttps.png" width="400">
+    <img src="./img/httphttps.png" width="550">
     <br>
     <small><a href="https://aws.amazon.com/ko/compare/the-difference-between-https-and-http/">참고</a></small>
 </p>
+
+## SSL/TLS
+`SSL/TLS`는 **전송 계층에서 보안을 제공**하는 프로토콜로, 클라이언트-서버 통신 시 제 3자가 메시지를 도청하거나 변조하지 못하도록 한다. `보안 세션`을 기반으로 데이터를 암호화하고 보안세션이 만들어질 때 `인증 메커니즘`, `키 교환 암호화 알고리즘`, `해싱 알고리즘`이 사용된다.
+
+> `SSL1.0` → `SSL2.0` → `SSL3.0` → `TLS1.0` → ... → `TLS1.3` → **`TLS`**로 명칭 변경!<br>
+> **TLS**(Transport Layer Security) 프로토콜은 **SSL**(Secure Socket Layer) 프로토콜에서 발전한 것
+
+<br>
+
+### 보안 세션
+보안이 시작되고 끝나는 동안 유지되는 세션을 말한다. `SSL/TLS`는 `SSL/TLS handshake`를 통해 보안 세션을 생성하고 이를 기반으로 상태 정보 등을 공유한다. 
+
+### 인증 메커니즘
+인증 메커니즘은 `CA`에서 발급한 **인증서를 기반**으로 이루어진다.
+발급한 인증서는 **공개키**를 클라이언트에게 제공하고 사용자가 접속한 서버가 **신뢰할 수 있는 서버**임을 보장한다. 인증서는 `서비스 정보`, `공개키`, `지문`, `디지털 서명` 등으로 이루어져 있다. 
+
+> **CA(Certificate Authorities)** <br>
+> 공개키를 저장해주는 신뢰성이 검증된 민간기업 <br>
+> 대표적으로 Comodo, GoDaddy, 아마존 등의 기업이 있음
