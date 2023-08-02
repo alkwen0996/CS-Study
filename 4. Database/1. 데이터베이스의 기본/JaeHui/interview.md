@@ -1,6 +1,6 @@
 ## 📝 Interview
 
-#### MySQL 문자 타입에서 CHAR와 VARCHR 타입의 차이점에 대해 설명하세요.
+#### MySQL 문자 타입에서 CHAR와 VARCHAR 타입의 차이점에 대해 설명하세요.
 
 ```
 CHAR, VARCHAR 타입은 타입과 함께 수를 입력해서 몇 자까지 입력할 지 정합니다.
