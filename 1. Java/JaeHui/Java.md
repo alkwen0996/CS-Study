@@ -285,7 +285,7 @@ MyArray<Integer> myArr = new MyArray<Integer>();
 💡 Java Generic vs C++ Template
 - Template에는 int와 같은 기본 타입을 인자로 넘길 수 있지만, Generic에서는 Integer을 대신 사용해야 합니다.
 - Template은 인자로 주어진 타입으로부터 객체를 만들어 낼 수 있지만, Generic에서는 불가능합니다.
-- Generic Class로 만든 모든 객체는 정부 동등한 타입이지만, Template는 다른 타입 인자 사용 시 서로 다른 타입의 객체입니다.
+- Generic Class로 만든 모든 객체는 전부 동등한 타입이지만, Template는 다른 타입 인자 사용 시 서로 다른 타입의 객체입니다.
 - Generic은 타입 인자를 특정한 타입이 되도록 제한할 수 있습니다.
 - Generic은 정적 메서드나 변수를 선언하는 데 사용할 수 없지만, Template는 가능합니다.
 ```
