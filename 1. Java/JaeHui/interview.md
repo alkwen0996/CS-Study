@@ -23,7 +23,7 @@ JDK 1.5부터 박싱과 언박싱이 필요한 상황에 자바 컴파일러가 
 
 <br>
 
-#### Promotion와 casting
+#### Promotion와 casting의 차이에 대해 설명해주세요.
 
 ```
 변수의 데이터 타입을 바꿔주는 타입변환의 방식에는 자동 형변환(Promotion)과 강제 형변환(Casting)이 있습니다. <br>
