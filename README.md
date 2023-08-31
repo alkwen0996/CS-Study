@@ -32,9 +32,7 @@
 | 5주차 | 23.08.03 ~ 23.08.10 | [데이터베이스](./4.%20Database)<br>[운영체제](./4.%20Database/3.%20Operating%20System) | [데이터베이스의 종류](./4.%20Database/4.%20데이터베이스의%20종류)<br>[인덱스](./4.%20Database/5.%20인덱스)<br>[조인의 종류](./4.%20Database/6.%20조인의%20종류)<br>[조인의 원리](./4.%20Database/7.%20조인의%20원리)  |
 | 6주차 | 23.08.11 ~ 23.08.17 | [자료구조](./5.%20Data%20Structure) | [복잡도](./5.%20Data%20Structure/1.%20복잡도)<br>[선형 자료 구조](./5.%20Data%20Structure/2.%20선형%20자료%20구조)<br>[비선형 자료 구조](./5.%20Data%20Structure/3.%20비선형%20자료%20구조)|
 | 7주차 | 23.08.18 ~ 23.08.24 | [자바](./1.%20Java) |자바 기본<br>객체지향의 특징과 원칙<br>자료형과 형변환<br>제한자<br>abstract, interface, generics<br>자바 버전 별 특징<br>java SE vs EE |
-| 8주차 | 23.08.25 ~ 23.08.31 | [자바](./1.%20Java) |동기 비동기<br>람다와 스트림<br>직렬화 역직렬화<br>Garbage Collection<br>리플렉션<br>어노테이션<br>String vs StringBuffer vs StringBuilder<br>예외처리<br>Optional |
-
-
+| 8주차 | 23.08.25 ~ 23.08.31 | [자바](./1.%20Java) |동기 비동기<br>람다와 스트림<br>직렬화 역직렬화<br>Garbage Collection<br>리플렉션<br>어노테이션<br>String vs StringBuffer vs StringBuilder<br>예외처리 |
 
 
 <br>
