@@ -9,6 +9,29 @@
     
 ## 📝 Interview
 
+<details>
+<summary><b>🏷Bookmark</b></summary>
+<div markdown="1">
+
+- [자바 기본](#자바-기본)
+- [객체지향의 특징과 원칙](#객체지향의-특징과-원칙)
+- [JVM](#jvm)
+- [자료형과 형변환](#자료형과-형변환)
+- [제한자](#제한자)
+- [abstract, interface, generics](#abstract-interface-generics)
+- [자바 버전 별 특징](#자바-버전-별-특징)
+- [Garbage Collection](#garbage-collection)
+- [람다와 스트림](#람다와-스트림)
+- [어노테이션](#어노테이션)
+- [리플렉션](#리플렉션)
+- [직렬화 역직렬화](#직렬화-역직렬화)
+- [String vs StringBuffer vs StringBuilder](#string-vs-stringbuffer-vs-stringbuilder)
+- [에러와 예외](#에러와-예외)
+
+</div>
+</details>
+
+
 ### 자바 기본
 
 #### 🗨 자바언어의 장단점에 대해 설명하세요.
@@ -85,7 +108,7 @@
 
 <br>
 
-## Garbage Collection
+### Garbage Collection
 
 #### 🗨 가비지가 발생하는 경우에 대해 하나의 예시를 들어주세요.
 
