@@ -1,6 +1,6 @@
 ## 📝 Interview
 
-#### POJO 프로그래밍에 대해 설명하세요.
+#### 🗨 POJO 프로그래밍에 대해 설명하세요.
 
 ```
 POJO란 직역하면 오래된 방식의 간단한 자바 오브젝트라는 의미로, Java로 생성하는 순수한 객체를 의미합니다.
@@ -18,7 +18,7 @@ Spring에서 POJO는 IoC/DI, AOP, PSA를 통해 달성할 수 있습니다.
 
 <br>
 
-#### IoC란 무엇인가요?
+#### 🗨 IoC란 무엇인가요?
 
 ```
 IoC란 직역하면 제어의 역전이라는 의미로, 제어권이 사용자에게 있지 않고 프레임워크에 있는 것을 의미합니다.
@@ -30,7 +30,7 @@ Spring Framework에서 지원하는 IoC Container는 POJO의 생명주기를 관
 
 <br>
 
-#### Library와 Framework의 차이에 대해 설명하세요.
+#### 🗨 Library와 Framework의 차이에 대해 설명하세요.
 
 ```
 IoC가 적용된 것을 Framework라고 합니다.
@@ -41,7 +41,7 @@ IoC가 적용된 것을 Framework라고 합니다.
 
 <br>
 
-#### DI란 무엇인지 설명하고, 그 중 생성자 주입에 대해 자세하게 설명해주세요.
+#### 🗨 DI란 무엇인지 설명하고, 그 중 생성자 주입에 대해 자세하게 설명해주세요.
 
 ```
 DI란 Spring Framework에서 지원하는 IoC의 형태입니다.
@@ -62,7 +62,7 @@ Container가 실행 흐름의 주체가 되어 애플리케이션 코드에 의�
 
 <br>
 
-#### Spring Framework와 Spring Boot의 차이에 대해 설명하세요.
+#### 🗨 Spring Framework와 Spring Boot의 차이에 대해 설명하세요.
 
 ```
 Spring Framework란 자바 엔터프라이즈 개발을 편하게 해주는 경량급 오픈소스 애플리케이션 프레임워크입니다.
@@ -86,7 +86,7 @@ Spring Boot는 자체적인 웹 서버를 내장하고 있어 빠르고 간편�
 
 <br>
 
-#### Spring에서 Bean 과 Container에 대해 설명하세요.
+#### 🗨 Spring에서 Bean 과 Container에 대해 설명하세요.
 
 ```
 컨테이너에 담겨있으며, 필요할 때 컨테이너에서 가져와서 사용하게 됩니다.
@@ -105,7 +105,7 @@ AppConfig 내에서 @Bean이 붙은 것이 Spring Bean을 의미합니다.
 
 <br>
 
-#### Bean 초기화 방법 중 권장되는 방법에 대해 설명해 주세요.
+#### 🗨 Bean 초기화 방법 중 권장되는 방법에 대해 설명해 주세요.
 
 ```
 1️⃣ 사용 방법이 간결하며 코드에서 초기화 메소드가 존재함을 쉽게 파악 가능하여 xml 설정 방법보다 직관적입니다. (권장)
@@ -115,7 +115,7 @@ AppConfig 내에서 @Bean이 붙은 것이 Spring Bean을 의미합니다.
 
 <br>
 
-#### MVC1 패턴과 MVC2 패턴의 차이에 대해 설명하세요.
+#### 🗨 MVC1 패턴과 MVC2 패턴의 차이에 대해 설명하세요.
 
 ```
 MVC1 패턴은 JSP 페이지에서 View와 Controller 역할 담당하여 로직 처리를 하게 됩니다.
@@ -127,7 +127,7 @@ MVC2 패턴은 Model, View, Controller로 모듈화된 형태로, JSP는 로직 
 
 <br>
 
-#### DAO, DTO, VO 차이에 대해 설명하세요.
+#### 🗨 DAO, DTO, VO 차이에 대해 설명하세요.
 
 ```
 DAO(Data Access Object)
@@ -145,7 +145,7 @@ DTO와 동일한 개념이지만 read only 속성을 가지는 객체입니다.
 
 <br>
 
-#### Spring Annotation에 대해 몇 가지 설명해주세요.
+#### 🗨 Spring Annotation에 대해 몇 가지 설명해주세요.
 
 ```
 - @ComponentScan: @Service, @Repository, @Controller, @Configuration이 붙은 클래스 Bean들을 찾아서 Context에 bean등록을 해주는 Annotation
@@ -164,7 +164,7 @@ DTO와 동일한 개념이지만 read only 속성을 가지는 객체입니다.
 
 <br>
 
-#### @Controller 와 @RestController 의 차이에 대해 설명하세요.
+#### 🗨 @Controller 와 @RestController 의 차이에 대해 설명하세요.
 
 ```
 💡 @Controller
@@ -181,7 +181,7 @@ data(json, xml 등) return이 주목적입니다.
 
 <br>
 
-#### Lombok Annotation에 대해 몇 가지 설명해주세요.
+#### 🗨 Lombok Annotation에 대해 몇 가지 설명해주세요.
 
 ```
 - @NoArgsConstructor: 기본생성자를 자동으로 추가합니다.
@@ -195,7 +195,7 @@ data(json, xml 등) return이 주목적입니다.
 
 <br>
 
-#### JPA Annotation에 대해 설명해주세요.
+#### 🗨 JPA Annotation에 대해 설명해주세요.
 
 ```
 - @Entity: 실제 DB의 테이블과 매칭될 Class임을 명시하는 것으로 테이블과 링크될 클래스임을 나타냅니다.
@@ -207,7 +207,7 @@ data(json, xml 등) return이 주목적입니다.
 
 <br>
 
-#### Constructor와 Builder의 차이점에 대해 설명하세요.
+#### 🗨 Constructor와 Builder의 차이점에 대해 설명하세요.
 
 ```
 생성 시점에 값을 채워주는 역할은 똑같지만, Builder를 사용하면 어느 필드에 어떤 값을 채워야 할지 명확하게 인지할 수 있습니다.
@@ -216,7 +216,7 @@ data(json, xml 등) return이 주목적입니다.
 
 <br>
 
-#### Restful API에 대해 설명하세요.
+#### 🗨 Restful API에 대해 설명하세요.
 
 ```
 HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고,
