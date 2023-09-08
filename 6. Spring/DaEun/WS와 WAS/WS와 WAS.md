@@ -3,8 +3,15 @@
 <summary><h3>📑목차</h3></summary>
 <div markdown="1">
 
-- [IoC](#ioc)
-
+- [정적 페이지와 동적 페이지](#ioc)
+    - [정적 페이지](#ioc)
+    - [동적 페이지](#ioc)
+- [WS(Web Server)](#ioc)
+- [WAS(Web Application Server)](#ioc)
+    - [웹 컨테이너 동작과정](#ioc)
+- [Servlet과 JSP](#ioc)
+    - [Servlet](#ioc)
+    - [JSP](#ioc)
 
 </div>
 </details>
