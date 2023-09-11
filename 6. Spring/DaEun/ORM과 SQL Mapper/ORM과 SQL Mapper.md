@@ -140,16 +140,16 @@ public class JDBCTest {
 🔹ORM을 이용하면 SQL 쿼리가 아닌 메서드를 통해 데이터를 조작할 수 있음(높은 생산성)
 
 #### JPA(Java Persistent Api)
-🔹자바가 ORM 기술을 채택해 작성한 API 표준 명세
-🔹ORM 기술을 사용하기 위한 인터페이스들을 모아놓은 것
-🔹인터페이스이기 때문에 구현체 필요
+🔹자바가 ORM 기술을 채택해 작성한 API 표준 명세<br>
+🔹ORM 기술을 사용하기 위한 인터페이스들을 모아놓은 것<br>
+🔹인터페이스이기 때문에 구현체 필요<br>
 🔹JPA를 구현한 프레임 워크 → `Hibernate`, `EclipseLink`…
 
 #### Hibernate
 🔹JPA를 바탕으로 구현한 구현체
 
 #### Spring JDBC
-🔹Spring이 제공하는 Persistence Framework 중 하나
+🔹Spring이 제공하는 Persistence Framework 중 하나<br>
 🔹기존 JDBC에서 반복적으로 해야 하는 작업들을 대신해주고 간결한 형태의 API 사용법을 제공
 
 #### JDBC Template
