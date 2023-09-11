@@ -3,8 +3,12 @@
 <summary><h3>📑목차</h3></summary>
 <div markdown="1">
 
-- [IoC](#ioc)
-
+- [빌드(Build)](#빌드build)
+    - [빌드 과정](#빌드-과정)
+    - [빌드 산출물](#빌드-산출물)
+- [빌드 관리 도구(Build Tool)](#빌드-관리-도구build-tool)
+    - [Maven](#maven)
+    - [Gradle](#gradle)
 
 </div>
 </details>
