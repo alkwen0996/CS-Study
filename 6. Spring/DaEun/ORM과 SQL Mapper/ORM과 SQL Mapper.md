@@ -62,6 +62,11 @@
 - 결과 처리
 - 리소스 반납
 
+> **JDBC 드라이버** <br>
+> 각 DBMS에 맞는 클라이언트<br>
+> DBMS와 통신을 담당하는 자바 클래스<br>
+> DBMS마다 별로 알맞은 JDBC 드라이버가 필요합 
+
 <p align="center">
     <img src="./img/jdbc flow.png" width="600px">
 </p>
