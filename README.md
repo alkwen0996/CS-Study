@@ -34,7 +34,7 @@
 | 7주차 | 23.08.18 ~ 23.08.24 | [자바](./1.%20Java) |자바 기본<br>객체지향의 특징과 원칙<br>자료형과 형변환<br>제한자<br>abstract, interface, generics<br>자바 버전 별 특징<br>java SE vs EE |
 | 8주차 | 23.08.25 ~ 23.08.31 | [자바](./1.%20Java) |동기 비동기<br>람다와 스트림<br>직렬화 역직렬화<br>Garbage Collection<br>리플렉션<br>어노테이션<br>String vs StringBuffer vs StringBuilder<br>예외처리 |
 | 9주차 | 23.08.26 ~ 23.09.07 | [스프링](./6.%20Spring) |Spring Framework<br>IoC와 DI<br>DAO, DTO, VO<br>MVC패턴<br>Restful API|
-| 9주차 | 23.09.14 ~ 23.09.22 | [스프링](./6.%20Spring) |WS와 WAS<br>빌드 관리 도구<br>ORM과 SQL Mapper<br>필터와 인터셉터<br>Spring과 캐시<br>Spring과 트랜잭션<br>AOP<br>Spring Security|
+| 10주차 | 23.09.14 ~ 23.09.22 | [스프링](./6.%20Spring) |WS와 WAS<br>빌드 관리 도구<br>ORM과 SQL Mapper<br>필터와 인터셉터<br>Spring과 캐시<br>Spring과 트랜잭션<br>AOP<br>Spring Security|
 
 
 <br>
