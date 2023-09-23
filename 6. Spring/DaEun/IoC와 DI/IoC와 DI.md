@@ -3,7 +3,28 @@
 <summary><h3>📑목차</h3></summary>
 <div markdown="1">
 
-- [Spring Framework](#spring-framework)
+- [IoC(Inversion of Control)](#ioc-inversion-of-control-제어의-역전)
+    - [스프링 빈(Spring Bean)](#스프링-빈-spring-bean)
+    - [스프링 빈 설정 방식](#스프링-빈-설정-방식)
+        - [XML 문서로 빈 설정](#xml-문서로-빈-설정)
+        - [Annotation 통해 빈 설정](#annotation-통해-빈-설정)
+    - [스프링 컨테이너(IoC 컨테이너)](#스프링-컨테이너-ioc-컨테이너-di-컨테이너)
+- [결합도](#결합도)
+    - [느슨한 결합도](#느슨한-결합도)
+        - [1️⃣ 다형성 이용](#1️⃣-다형성-이용)
+        - [2️⃣ 팩토리 패턴 사용](#2️⃣-팩토리-패턴-사용)
+        - [3️⃣ Assembler 이용](#3️⃣-assembler-이용-spring)
+- [IoC 종류](#ioc-종류)
+    - [DL(Dependency Lookup)](#dldependency-lookup-의존성-검색)
+    - [DI(Dependency Injection)](#didependency-injection-의존성-주입)
+        - [어노테이션을 이용한 DI](#어노테이션을-이용한-di)
+            - [@Autowired](#autowired)
+            - [Constructor Injection](#👉constructor-injection-생성자를-이용한-id)
+            - [Setter Injection](#👉setter-injection-setter-메서드를-이용한-di)
+            - [Method Injection](#👉method-injection-일반-메서드-이용한-di)
+
+
+
 
 
 </div>
@@ -73,10 +94,6 @@ XML 문서 형태로 빈의 설정 메타 정보를 기술하는 방식이다. `
 
 
 <br>
-
-
-
-
 
 <br>
 
