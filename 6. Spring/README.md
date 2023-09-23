@@ -1,4 +1,9 @@
 ## 🗓 Timeline
+
+| 주차  | 날짜                | 과목   | 주제                                                                   |
+| ----- | ------------------- | ------ | ---------------------------------------------------------------------- |
+| 9주차 | 23.08.26 ~ 23.09.07 | 스프링 | Spring Framework<br>IoC와 DI<br>DAO, DTO, VO<br>MVC패턴<br>RESTful API |
+=======
 | 주차 | 날짜 | 과목 | 주제 |
 |--|--|--|--|
 | 9주차 | 23.08.26 ~ 23.09.07 | 스프링 | Spring Framework<br>IoC와 DI<br>DAO, DTO, VO<br>MVC패턴<br>RESTful API|
@@ -18,13 +23,13 @@
 - [MVC 패턴](#mvc-패턴)
 - [RESTful API](#restful-api)
 
-
 </div>
 </details>
 
 <br>
 
 ## Spring Framework
+
 #### 🗨 Spring의 3개 핵심 개념 (Spring 삼각형)에 대해 설명해주세요.
 
 #### 🗨 POJO 프로그래밍에 대해 설명하세요.
@@ -46,6 +51,7 @@
 <br>
 
 ## IoC와 DI
+
 #### 🗨 IoC란 무엇인가요?
 
 #### 🗨 Bean 초기화 방법 중 권장되는 방법에 대해 설명해 주세요.
@@ -79,6 +85,45 @@
 ## RESTful API
 
 #### 🗨 Restful API에 대해 설명하세요.
+
+--- 재희 시작 ---
+## 
+
+#### 🗨 Filter, Interceptor, AOP를 비교 설명하세요.
+
+## Spring Security (Cookie, Session, JWT)
+
+#### 🗨 Cookie와 Session의 차이점에 대해 설명하세요.
+
+#### 🗨 JWT란 무엇이며, 어떻게 활용되는지 설명하세요.
+
+## CORS
+
+#### 🗨 CORS란 무엇인가요?
+
+## ORM과 SQL Mapper
+
+#### 🗨 JDBC와 영속성에 대해 설명하세요.
+
+#### 🗨 SQL Mapper와 ORM의 차이에 대해 설명하세요.
+
+#### 🗨 JPQL와 QueryDSL에 대해 설명하세요.
+
+## Transaction
+
+#### 🗨 Transaction이란 무엇인지 설명하세요.
+
+## Cache
+
+#### 🗨 Local Cache와 Global Cache를 비교 설명하세요.
+
+#### 🗨 캐시 서버 구현 패턴 2가지에 대해 설명하세요.
+
+## 빌드 관리 도구
+
+#### 🗨 Maven과 Gradle에 대해 설명하세요.
+
+--- 재희 끝 ---
 
 <br>
 
@@ -127,7 +172,3 @@
 #### 🗨 인터셉터 인터페이스의 각 메서드에 대해 설명해주세요.
 
 ========== 다은 끝
-
-
-
-
