@@ -1,9 +1,5 @@
 ## 🗓 Timeline
 
-| 주차  | 날짜                | 과목   | 주제                                                                   |
-| ----- | ------------------- | ------ | ---------------------------------------------------------------------- |
-| 9주차 | 23.08.26 ~ 23.09.07 | 스프링 | Spring Framework<br>IoC와 DI<br>DAO, DTO, VO<br>MVC패턴<br>RESTful API |
-=======
 | 주차 | 날짜 | 과목 | 주제 |
 |--|--|--|--|
 | 9주차 | 23.08.26 ~ 23.09.07 | 스프링 | Spring Framework<br>IoC와 DI<br>DAO, DTO, VO<br>MVC패턴<br>RESTful API|
@@ -86,10 +82,7 @@
 
 #### 🗨 Restful API에 대해 설명하세요.
 
---- 재희 시작 ---
-## 
-
-#### 🗨 Filter, Interceptor, AOP를 비교 설명하세요.
+<br>
 
 ## Spring Security (Cookie, Session, JWT)
 
@@ -101,17 +94,13 @@
 
 #### 🗨 CORS란 무엇인가요?
 
-## ORM과 SQL Mapper
-
-#### 🗨 JDBC와 영속성에 대해 설명하세요.
-
-#### 🗨 SQL Mapper와 ORM의 차이에 대해 설명하세요.
-
-#### 🗨 JPQL와 QueryDSL에 대해 설명하세요.
+<br>
 
 ## Transaction
 
 #### 🗨 Transaction이란 무엇인지 설명하세요.
+
+<br>
 
 ## Cache
 
@@ -119,15 +108,7 @@
 
 #### 🗨 캐시 서버 구현 패턴 2가지에 대해 설명하세요.
 
-## 빌드 관리 도구
-
-#### 🗨 Maven과 Gradle에 대해 설명하세요.
-
---- 재희 끝 ---
-
 <br>
-
-========== 다은 시작
 
 ## WS와 WAS
 
@@ -161,6 +142,10 @@
 
 #### 🗨 MyBatis와 JPA를 함께 사용할 수 있을까요?
 
+#### 🗨 JDBC와 영속성에 대해 설명하세요.
+
+#### 🗨 JPQL와 QueryDSL에 대해 설명하세요.
+
 <br>
 
 ## 필터와 인터셉터
@@ -171,4 +156,4 @@
 
 #### 🗨 인터셉터 인터페이스의 각 메서드에 대해 설명해주세요.
 
-========== 다은 끝
+#### 🗨 Filter, Interceptor, AOP를 비교 설명하세요.
